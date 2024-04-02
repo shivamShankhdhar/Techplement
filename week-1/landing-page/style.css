@@ -9,15 +9,19 @@ body {
 
 .container {
   display: grid;
+  width: 100%;
 }
 
 .container nav {
+  background-color: #ffffff;
   padding: 15px 15px 10px 40px;
   height: 40px;
   border-bottom: 1px solid rgb(235, 229, 229);
   display: flex;
   float: left;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
 }
 
 .container nav .logo {
@@ -181,6 +185,87 @@ body {
   padding: 50px;
 }
 
-.container .hero-section .hero-section-child-1 img {
-  /* position: absolute; */
+.container .feature-container {
+  display: grid;
+  column-gap: 30px;
+}
+
+.container .feature-container .feature-container-child-0 {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: grid;
+}
+
+.container .feature-container .feature-container-child-0 .child-0 {
+  height: 80px;
+  line-height: 80px;
+  width: 100%;
+  background-color: blue;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+.container .feature-container .feature-container-child-0 .child-1 {
+  height: 500px;
+  line-height: 80px;
+  width: 100%;
+  background-color: rgb(1, 1, 43);
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+.container .feature-container .feature-container-child-0 .child-1 ul {
+  list-style: none;
+  padding: 0px;
+
+  padding: 10px;
+
+  /* line-height: 40px; */
+
+}
+
+.container .feature-container .feature-container-child-0 .child-1 ul li {
+  border: 1px solid blue;
+  margin-top: 20px;
+}
+
+.container .feature-container .feature-container-child-1 {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+.container .container-3 {
+  display: grid;
+  color: #ffffff;
+  background-color: rgb(2, 2, 61);
+  padding: 20px;
+  height: 400px;
+}
+
+.container .container-3 .child-0 {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+}
+
+.container .container-3 .child-1 {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+}
+
+.container .container-3 .child-1 p {
+  margin-top: 50px;
 }
