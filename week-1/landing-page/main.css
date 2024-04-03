@@ -10,7 +10,7 @@ body {
 .container {
   display: grid;
   width: auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
 }
 
@@ -24,6 +24,7 @@ body {
   justify-content: space-between;
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
 
 .container nav .logo {
@@ -363,17 +364,46 @@ body {
   border-radius: 50px;
 }
 
+.container .container-5 .child-0 a:hover {
+  background-color: #ffffff;
+  color: rgb(7, 7, 56);
+  transition: 0.5s;
+}
+
+.container .container-5 .child-0 #silder-prev-button {
+  margin-left: 80px;
+}
+
+.container .container-5 .child-0 .slider-navigation-buttons {
+  height: 40px;
+  width: 40px;
+  border: none;
+  background: none;
+  color: #ffffff;
+  cursor: pointer;
+
+}
+
+.container .container-5 .child-0 .slider-navigation-buttons:hover {
+  background-color: #ffffff;
+  color: rgb(7, 7, 56);
+  transition: 0.5s;
+}
+
 .container .container-5 .child-1 {
   grid-column: 3/7;
   grid-row: 1/1;
-  overflow: hidden;
+  overflow: hidden !important;
+  background-color: blue;
 }
 
 .container .container-5 .child-1 .slider {
   height: 100%;
   width: 200%;
-  background-color: blue;
   display: flex;
+  /* border: 1px solid red; */
+  /* overflow: hidden; */
+  float: left;
 }
 
 .container .container-5 .child-1 .slider .slides {
@@ -383,18 +413,18 @@ body {
   margin: 5% 30px 0px 30px;
   background-color: #ffffff;
   border-radius: 15px;
-  float: left;
+  transition: 0.5s;
   /* margin-left: -800px; */
 }
 
-.container .container-5 .child-1 .slider .slides .tag-0 {
-  position: absolute;
+.container .container-5 .child-1 .slider .slides .slide-0-child-0 .tag-0 {
+  position: sticky;
   padding: 4px;
   width: 100px;
   color: #ffffff;
-  background-color: rgb(36, 34, 34);
-  margin-left: -10px;
-  margin-top: 10px;
+  background-color: rgb(36, 34, 34) !important;
+  margin-left: -30px;
+  margin-top: -18px;
   font-size: 14px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
