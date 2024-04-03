@@ -419,7 +419,7 @@ body {
 
 .container .container-5 .child-1 .slider .slides .slide-0-child-0 .tag-0 {
   position: sticky;
-  padding: 4px;
+  padding: 4px 0px 4px 10px;
   width: 100px;
   color: #ffffff;
   background-color: rgb(36, 34, 34) !important;
@@ -465,4 +465,18 @@ body {
   margin-top: 50px;
   margin-left: 20px;
   border-radius: 50px;
+}
+
+.container .scroll-up {
+  display: none;
+  height: 30px;
+  width: 30px;
+  background-color: blue;
+  color: #ffffff;
+  position: fixed;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 30px;
+  right: 50px;
+  bottom: 50px;
 }
