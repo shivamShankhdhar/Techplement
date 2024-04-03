@@ -269,3 +269,61 @@ body {
 .container .container-3 .child-1 p {
   margin-top: 50px;
 }
+
+.container .container-4 {
+  display: grid;
+  padding: 50px;
+  height: 400px;
+}
+
+.container .container-4 .child-0 {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.container .container-4 .child-0 h1 {
+  font-size: 40px;
+  color: rgb(2, 2, 61);
+}
+
+.container .container-4 .child-0 p {
+  margin: 50px 0px 50px 0px;
+  font-size: 25px;
+}
+
+
+.container .container-4 .child-0 a {
+  text-decoration: none;
+  background-color: blue;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.container .container-4 .child-1 {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  margin-left: 100px;
+}
+
+.container .container-4 .child-1 div {
+  height: 150px;
+  width: 300px;
+  float: left;
+  border: 1px solid rgb(14, 166, 226);
+  margin-top: 15px;
+  margin-left: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+
+  font-size: 30px;
+  text-align: center;
+  line-height: 75px
+}
+
+.container .container-4 .child-1 div:hover {}
