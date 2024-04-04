@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="media.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
   <title>Zoom App</title>
@@ -15,7 +16,10 @@
     <nav>
       <div class="logo">
         <img src="./logo.svg" />
-        <ul>
+        <!-- <div class="media-nav-container"> -->
+      </div>
+      <div class="nav-links">
+        <ul class="list-items-0">
           <a href="#">
             <li>Products</li>
           </a>
@@ -29,9 +33,7 @@
             <li>Plans & Pricing</li>
           </a>
         </ul>
-      </div>
-      <div class="nav-links">
-        <ul>
+        <ul class="list-items-1">
           <a href="#">
             <li>Support</li>
           </a>
@@ -42,6 +44,15 @@
             <li>Sign In</li>
           </a>
         </ul>
+
+        <div class="hamburger" id="open-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="hamburger" id="close-menu">
+          <i class="fa-solid fa-x"></i>
+        </div>
+      </div>
       </div>
     </nav>
     <div class="hero-section">
@@ -50,7 +61,8 @@
           Reimagine your workplace <span>communication </span> with AI powered Zoom
         </h1>
         <p>
-          Introducing <b>Zoom Workplace</b>, your AI- powered collaboration platform. Streamline communication, increase
+          Introducing <b>Zoom Workplace</b>, your AI- powered collaboration platform. Streamline communication,
+          increase
           employee engagement, and improve <span>productivity</span>;fueled by Zoom AI Companion, your AI assistance,
           included at no additional cost.*
         </p>
@@ -93,8 +105,10 @@
         <h1>One platform for limitless human connection</h1>
         <p>Drive impact with AI Companion, reimagine teamwork, enhance customer relationships, and enable seamless
           experiences with a single platform.</p>
-        <p>*AI Companion is included at no additional cost with the paid services in your Zoom user account and may not
-          be available for all regions and industry verticals. Some features not currently available across all regions
+        <p>*AI Companion is included at no additional cost with the paid services in your Zoom user account and may
+          not
+          be available for all regions and industry verticals. Some features not currently available across all
+          regions
           or plans and are subject to change.</p>
       </div>
     </div>
@@ -107,12 +121,12 @@
         <a href="#">Explore Industry Solutions</a>
       </div>
       <div class="child-1">
-        <div><i class="fa-solid fa-graduation-cap"></i> <br>Education</div>
-        <div><i class="fa-solid fa-dollar-sign"></i> <br> Finance Services</div>
-        <div><i class="fa-solid fa-building-columns"></i> <br>Government</div>
-        <div><i class="fa-solid fa-notes-medical"></i> <br>Healthcare</div>
-        <div><i class="fa-solid fa-industry"></i> <br>Manufacturing</div>
-        <div><i class="fa-solid fa-tag"></i> <br> Retail</div>
+        <div><i class="fa-solid fa-graduation-cap"></i>Education</div>
+        <div><i class="fa-solid fa-dollar-sign"></i>Finance Services</div>
+        <div><i class="fa-solid fa-building-columns"></i>Government</div>
+        <div><i class="fa-solid fa-notes-medical"></i>Healthcare</div>
+        <div><i class="fa-solid fa-industry"></i>Manufacturing</div>
+        <div><i class="fa-solid fa-tag"></i>Retail</div>
       </div>
     </div>
 
@@ -135,15 +149,19 @@
             <div class="slide-0-child-1">Unlock AI's full potential within your organization</div>
             <div class="slide-0-child-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ipsum autem
               ipsam praesentium et assumenda illo molestias. Mollitia voluptas doloribus minus aliquam qui iste
-              excepturi nihil, saepe nemo enim perferendis assumenda reiciendis dolores amet illum! Necessitatibus, vel!
+              excepturi nihil, saepe nemo enim perferendis assumenda reiciendis dolores amet illum! Necessitatibus,
+              vel!
               Eaque voluptatum esse ut deserunt odio a itaque hic incidunt dolore distinctio. Minus quibusdam enim
-              temporibus. Odit amet aliquid facilis fugit ea alias quas earum, vel distinctio veritatis fugiat natus est
+              temporibus. Odit amet aliquid facilis fugit ea alias quas earum, vel distinctio veritatis fugiat natus
+              est
               esse ut quod dolorem impedit suscipit illo, minus iste tempora? Dolore impedit, magni neque, soluta vero
               earum veniam eligendi nostrum consequuntur quaerat fuga nesciunt reprehenderit minus esse deleniti cum,
-              sit velit! Sapiente quas voluptatibus recusandae iste neque, distinctio repellendus? Assumenda illum odit
+              sit velit! Sapiente quas voluptatibus recusandae iste neque, distinctio repellendus? Assumenda illum
+              odit
               praesentium nemo sequi, commodi obcaecati tempora eum sit earum nulla nihil fugit temporibus quas error
               quis soluta illo facere accusamus sed cupiditate. Exercitationem perspiciatis ipsum rem id corporis
-              dolorem nesciunt voluptatum, fugit officia laborum odio ex quasi excepturi itaque? Saepe perspiciatis sint
+              dolorem nesciunt voluptatum, fugit officia laborum odio ex quasi excepturi itaque? Saepe perspiciatis
+              sint
               nisi nobis beatae sequi officiis tempora, libero quaerat illum vel dolores natus quia cumque porro esse
               pariatur quae nemo, ex aliquam, nesciunt molestiae quidem? Distinctio eaque officiis aperiam consectetur
               necessitatibus quos hic, nostrum consequatur asperiores, vel fugit vero a sit molestias ut ipsam autem
@@ -157,14 +175,16 @@
               cumque eos esse quis corrupti in porro neque, architecto hic temporibus magnam reiciendis vitae dolores,
               odit dignissimos quod quasi magni ratione autem. Voluptatem, rerum. Nulla soluta culpa alias fuga odio
               quod. Eligendi perferendis delectus, rerum maiores consequuntur officia molestias explicabo laboriosam
-              magni asperiores consequatur fugit quam, doloremque tempore nemo minima voluptatibus voluptatem odio ipsum
+              magni asperiores consequatur fugit quam, doloremque tempore nemo minima voluptatibus voluptatem odio
+              ipsum
               ullam nobis quia ab reiciendis! Ut consectetur, eius quia magni suscipit culpa dolorum debitis expedita
               illo commodi fugiat odit eos voluptate adipisci voluptatum reprehenderit repellendus ipsa facere magnam
               natus sit ullam? Neque, dolorem quisquam reprehenderit fugiat magni dicta? Voluptate illum perferendis
               deleniti nobis quibusdam dolore quas, ut cupiditate harum. Omnis eius blanditiis dignissimos? Quisquam,
               est in rerum nisi odio quibusdam voluptate aspernatur. Possimus atque at natus. Beatae, provident odio
               reprehenderit deserunt dolore dignissimos, voluptatum consectetur maiores ea itaque voluptate aliquam
-              voluptatibus, debitis nulla. Molestias, pariatur fuga atque quas voluptatem numquam veniam non eaque esse
+              voluptatibus, debitis nulla. Molestias, pariatur fuga atque quas voluptatem numquam veniam non eaque
+              esse
               illo. Assumenda aliquid exercitationem voluptatum iste, temporibus ipsum. Officiis hic assumenda enim
               saepe, fugiat deserunt nesciunt facilis dolorem molestias eum facere labore! Tenetur, tempora nisi minus
               autem nemo dicta labore eos quibusdam consectetur distinctio accusantium quia, dolorem pariatur magnam,
@@ -180,15 +200,19 @@
             <div class="slide-0-child-1">A recognized Magic Quadrant leader!</div>
             <div class="slide-0-child-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ipsum autem
               ipsam praesentium et assumenda illo molestias. Mollitia voluptas doloribus minus aliquam qui iste
-              excepturi nihil, saepe nemo enim perferendis assumenda reiciendis dolores amet illum! Necessitatibus, vel!
+              excepturi nihil, saepe nemo enim perferendis assumenda reiciendis dolores amet illum! Necessitatibus,
+              vel!
               Eaque voluptatum esse ut deserunt odio a itaque hic incidunt dolore distinctio. Minus quibusdam enim
-              temporibus. Odit amet aliquid facilis fugit ea alias quas earum, vel distinctio veritatis fugiat natus est
+              temporibus. Odit amet aliquid facilis fugit ea alias quas earum, vel distinctio veritatis fugiat natus
+              est
               esse ut quod dolorem impedit suscipit illo, minus iste tempora? Dolore impedit, magni neque, soluta vero
               earum veniam eligendi nostrum consequuntur quaerat fuga nesciunt reprehenderit minus esse deleniti cum,
-              sit velit! Sapiente quas voluptatibus recusandae iste neque, distinctio repellendus? Assumenda illum odit
+              sit velit! Sapiente quas voluptatibus recusandae iste neque, distinctio repellendus? Assumenda illum
+              odit
               praesentium nemo sequi, commodi obcaecati tempora eum sit earum nulla nihil fugit temporibus quas error
               quis soluta illo facere accusamus sed cupiditate. Exercitationem perspiciatis ipsum rem id corporis
-              dolorem nesciunt voluptatum, fugit officia laborum odio ex quasi excepturi itaque? Saepe perspiciatis sint
+              dolorem nesciunt voluptatum, fugit officia laborum odio ex quasi excepturi itaque? Saepe perspiciatis
+              sint
               nisi nobis beatae sequi officiis tempora, libero quaerat illum vel dolores natus quia cumque porro esse
               pariatur quae nemo, ex aliquam, nesciunt molestiae quidem? Distinctio eaque officiis aperiam consectetur
               necessitatibus quos hic, nostrum consequatur asperiores, vel fugit vero a sit molestias ut ipsam autem
@@ -202,14 +226,16 @@
               cumque eos esse quis corrupti in porro neque, architecto hic temporibus magnam reiciendis vitae dolores,
               odit dignissimos quod quasi magni ratione autem. Voluptatem, rerum. Nulla soluta culpa alias fuga odio
               quod. Eligendi perferendis delectus, rerum maiores consequuntur officia molestias explicabo laboriosam
-              magni asperiores consequatur fugit quam, doloremque tempore nemo minima voluptatibus voluptatem odio ipsum
+              magni asperiores consequatur fugit quam, doloremque tempore nemo minima voluptatibus voluptatem odio
+              ipsum
               ullam nobis quia ab reiciendis! Ut consectetur, eius quia magni suscipit culpa dolorum debitis expedita
               illo commodi fugiat odit eos voluptate adipisci voluptatum reprehenderit repellendus ipsa facere magnam
               natus sit ullam? Neque, dolorem quisquam reprehenderit fugiat magni dicta? Voluptate illum perferendis
               deleniti nobis quibusdam dolore quas, ut cupiditate harum. Omnis eius blanditiis dignissimos? Quisquam,
               est in rerum nisi odio quibusdam voluptate aspernatur. Possimus atque at natus. Beatae, provident odio
               reprehenderit deserunt dolore dignissimos, voluptatum consectetur maiores ea itaque voluptate aliquam
-              voluptatibus, debitis nulla. Molestias, pariatur fuga atque quas voluptatem numquam veniam non eaque esse
+              voluptatibus, debitis nulla. Molestias, pariatur fuga atque quas voluptatem numquam veniam non eaque
+              esse
               illo. Assumenda aliquid exercitationem voluptatum iste, temporibus ipsum. Officiis hic assumenda enim
               saepe, fugiat deserunt nesciunt facilis dolorem molestias eum facere labore! Tenetur, tempora nisi minus
               autem nemo dicta labore eos quibusdam consectetur distinctio accusantium quia, dolorem pariatur magnam,
@@ -226,15 +252,19 @@
             <div class="slide-0-child-1">Catch all the Innovation from zoomtopia</div>
             <div class="slide-0-child-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ipsum autem
               ipsam praesentium et assumenda illo molestias. Mollitia voluptas doloribus minus aliquam qui iste
-              excepturi nihil, saepe nemo enim perferendis assumenda reiciendis dolores amet illum! Necessitatibus, vel!
+              excepturi nihil, saepe nemo enim perferendis assumenda reiciendis dolores amet illum! Necessitatibus,
+              vel!
               Eaque voluptatum esse ut deserunt odio a itaque hic incidunt dolore distinctio. Minus quibusdam enim
-              temporibus. Odit amet aliquid facilis fugit ea alias quas earum, vel distinctio veritatis fugiat natus est
+              temporibus. Odit amet aliquid facilis fugit ea alias quas earum, vel distinctio veritatis fugiat natus
+              est
               esse ut quod dolorem impedit suscipit illo, minus iste tempora? Dolore impedit, magni neque, soluta vero
               earum veniam eligendi nostrum consequuntur quaerat fuga nesciunt reprehenderit minus esse deleniti cum,
-              sit velit! Sapiente quas voluptatibus recusandae iste neque, distinctio repellendus? Assumenda illum odit
+              sit velit! Sapiente quas voluptatibus recusandae iste neque, distinctio repellendus? Assumenda illum
+              odit
               praesentium nemo sequi, commodi obcaecati tempora eum sit earum nulla nihil fugit temporibus quas error
               quis soluta illo facere accusamus sed cupiditate. Exercitationem perspiciatis ipsum rem id corporis
-              dolorem nesciunt voluptatum, fugit officia laborum odio ex quasi excepturi itaque? Saepe perspiciatis sint
+              dolorem nesciunt voluptatum, fugit officia laborum odio ex quasi excepturi itaque? Saepe perspiciatis
+              sint
               nisi nobis beatae sequi officiis tempora, libero quaerat illum vel dolores natus quia cumque porro esse
               pariatur quae nemo, ex aliquam, nesciunt molestiae quidem? Distinctio eaque officiis aperiam consectetur
               necessitatibus quos hic, nostrum consequatur asperiores, vel fugit vero a sit molestias ut ipsam autem
@@ -248,14 +278,16 @@
               cumque eos esse quis corrupti in porro neque, architecto hic temporibus magnam reiciendis vitae dolores,
               odit dignissimos quod quasi magni ratione autem. Voluptatem, rerum. Nulla soluta culpa alias fuga odio
               quod. Eligendi perferendis delectus, rerum maiores consequuntur officia molestias explicabo laboriosam
-              magni asperiores consequatur fugit quam, doloremque tempore nemo minima voluptatibus voluptatem odio ipsum
+              magni asperiores consequatur fugit quam, doloremque tempore nemo minima voluptatibus voluptatem odio
+              ipsum
               ullam nobis quia ab reiciendis! Ut consectetur, eius quia magni suscipit culpa dolorum debitis expedita
               illo commodi fugiat odit eos voluptate adipisci voluptatum reprehenderit repellendus ipsa facere magnam
               natus sit ullam? Neque, dolorem quisquam reprehenderit fugiat magni dicta? Voluptate illum perferendis
               deleniti nobis quibusdam dolore quas, ut cupiditate harum. Omnis eius blanditiis dignissimos? Quisquam,
               est in rerum nisi odio quibusdam voluptate aspernatur. Possimus atque at natus. Beatae, provident odio
               reprehenderit deserunt dolore dignissimos, voluptatum consectetur maiores ea itaque voluptate aliquam
-              voluptatibus, debitis nulla. Molestias, pariatur fuga atque quas voluptatem numquam veniam non eaque esse
+              voluptatibus, debitis nulla. Molestias, pariatur fuga atque quas voluptatem numquam veniam non eaque
+              esse
               illo. Assumenda aliquid exercitationem voluptatum iste, temporibus ipsum. Officiis hic assumenda enim
               saepe, fugiat deserunt nesciunt facilis dolorem molestias eum facere labore! Tenetur, tempora nisi minus
               autem nemo dicta labore eos quibusdam consectetur distinctio accusantium quia, dolorem pariatur magnam,
@@ -272,15 +304,19 @@
             <div class="slide-0-child-1">Intdoducing Zoom AI Companion</div>
             <div class="slide-0-child-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ipsum autem
               ipsam praesentium et assumenda illo molestias. Mollitia voluptas doloribus minus aliquam qui iste
-              excepturi nihil, saepe nemo enim perferendis assumenda reiciendis dolores amet illum! Necessitatibus, vel!
+              excepturi nihil, saepe nemo enim perferendis assumenda reiciendis dolores amet illum! Necessitatibus,
+              vel!
               Eaque voluptatum esse ut deserunt odio a itaque hic incidunt dolore distinctio. Minus quibusdam enim
-              temporibus. Odit amet aliquid facilis fugit ea alias quas earum, vel distinctio veritatis fugiat natus est
+              temporibus. Odit amet aliquid facilis fugit ea alias quas earum, vel distinctio veritatis fugiat natus
+              est
               esse ut quod dolorem impedit suscipit illo, minus iste tempora? Dolore impedit, magni neque, soluta vero
               earum veniam eligendi nostrum consequuntur quaerat fuga nesciunt reprehenderit minus esse deleniti cum,
-              sit velit! Sapiente quas voluptatibus recusandae iste neque, distinctio repellendus? Assumenda illum odit
+              sit velit! Sapiente quas voluptatibus recusandae iste neque, distinctio repellendus? Assumenda illum
+              odit
               praesentium nemo sequi, commodi obcaecati tempora eum sit earum nulla nihil fugit temporibus quas error
               quis soluta illo facere accusamus sed cupiditate. Exercitationem perspiciatis ipsum rem id corporis
-              dolorem nesciunt voluptatum, fugit officia laborum odio ex quasi excepturi itaque? Saepe perspiciatis sint
+              dolorem nesciunt voluptatum, fugit officia laborum odio ex quasi excepturi itaque? Saepe perspiciatis
+              sint
               nisi nobis beatae sequi officiis tempora, libero quaerat illum vel dolores natus quia cumque porro esse
               pariatur quae nemo, ex aliquam, nesciunt molestiae quidem? Distinctio eaque officiis aperiam consectetur
               necessitatibus quos hic, nostrum consequatur asperiores, vel fugit vero a sit molestias ut ipsam autem
@@ -294,14 +330,16 @@
               cumque eos esse quis corrupti in porro neque, architecto hic temporibus magnam reiciendis vitae dolores,
               odit dignissimos quod quasi magni ratione autem. Voluptatem, rerum. Nulla soluta culpa alias fuga odio
               quod. Eligendi perferendis delectus, rerum maiores consequuntur officia molestias explicabo laboriosam
-              magni asperiores consequatur fugit quam, doloremque tempore nemo minima voluptatibus voluptatem odio ipsum
+              magni asperiores consequatur fugit quam, doloremque tempore nemo minima voluptatibus voluptatem odio
+              ipsum
               ullam nobis quia ab reiciendis! Ut consectetur, eius quia magni suscipit culpa dolorum debitis expedita
               illo commodi fugiat odit eos voluptate adipisci voluptatum reprehenderit repellendus ipsa facere magnam
               natus sit ullam? Neque, dolorem quisquam reprehenderit fugiat magni dicta? Voluptate illum perferendis
               deleniti nobis quibusdam dolore quas, ut cupiditate harum. Omnis eius blanditiis dignissimos? Quisquam,
               est in rerum nisi odio quibusdam voluptate aspernatur. Possimus atque at natus. Beatae, provident odio
               reprehenderit deserunt dolore dignissimos, voluptatum consectetur maiores ea itaque voluptate aliquam
-              voluptatibus, debitis nulla. Molestias, pariatur fuga atque quas voluptatem numquam veniam non eaque esse
+              voluptatibus, debitis nulla. Molestias, pariatur fuga atque quas voluptatem numquam veniam non eaque
+              esse
               illo. Assumenda aliquid exercitationem voluptatum iste, temporibus ipsum. Officiis hic assumenda enim
               saepe, fugiat deserunt nesciunt facilis dolorem molestias eum facere labore! Tenetur, tempora nisi minus
               autem nemo dicta labore eos quibusdam consectetur distinctio accusantium quia, dolorem pariatur magnam,
@@ -415,6 +453,7 @@
     </div> -->
 
     <script src="main.js"></script>
+    <script src="media.js"></script>
   </main>
 
 </body>
