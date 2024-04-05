@@ -1,6 +1,8 @@
-const slides = document.querySelectorAll(".slides");
+const slides = document.querySelectorAll(".slide");
 const prevButton = document.querySelector("#silder-prev-button");
 const nextButton = document.querySelector("#silder-next-button");
+const screenWidth = document.documentElement.scrollWidth;
+// console.log(screenWidth)
 var counter = 0;
 if (counter === 0) {
   prevButton.disabled = true
@@ -27,7 +29,10 @@ nextButton.addEventListener("click", () => {
 
 const getSlider = () => {
   slides.forEach((slide) => {
-    slide.style.transform = `translateX(${counter * 300}px)`;
+    slide.style.transition = "0.5s"
+    if (screenWidth > 480)
+      slide.style.transform = `translateX(${counter * 310}px)`;
+    else slide.style.transform = `translateX(${counter * 360}px)`;
   })
 }
 
